@@ -1,0 +1,152 @@
+body {
+    font-family: Georgia, Times, serif, 'Times New Roman', sans-serif;
+    background-image: url('../img/fondocartas02.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 20;
+    padding: 20;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 150vh;
+    
+    
+}
+
+.container {
+    background-color: 0b070b(0, 0, 0, 0.8);
+    border: 1px solid #333;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0b070b(0, 0, 0, 0.5);
+    max-width: 600px;
+    text-align: center;
+}
+h1 {
+    color: #050304;
+    margin-bottom: 20px;
+    background-color: #851f16;
+    text-align: center;
+    border-radius: 15px;
+    height: 25px;
+    margin: 10;
+    padding: 14px;
+
+}
+
+h2 {
+    color: #050304;
+    margin-bottom: 20px;
+    background-color: #55141f;
+    text-align: center;
+    border-radius: 15px;
+    height: 25px;
+    margin: 10;
+    padding: 14px;
+
+}
+
+p {
+    color: #b93a3a;
+    margin-bottom: 20px;
+    background-color: #111212;
+    text-align: center;
+    border-radius: 15px;
+    height: 25px;
+    margin: 10;
+    padding: 14px;
+
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color:#2f2a24;
+    color: #99011e;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.3s;
+    flex-direction: row;
+}
+
+
+button:disabled {
+    background-color: #cecece;
+    cursor: not-allowed;
+}
+
+button:hover {
+    background-color: #0a0201;
+}
+
+#jugador, #maquina {
+    margin-top: 30px;
+    color: #070505;
+    margin-bottom: 10px;
+    background-color: #490707;
+    text-align: center;
+    border-radius: 20px;
+    height: 150px;
+    margin: 6;
+    padding: 10px;
+}
+
+.cartas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.cartas span {
+    display: inline-block;
+    width: 70px;
+    height: 100px;
+    background-color: #f6f3f3;
+    border: 2px solid #a35b5b;
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+    margin: 10 5px;
+    line-height: 100px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px 99011E(0, 0, 0, 0.2);
+}
+
+#resultado {
+    margin-top: 20px;
+    color: #8e5c57;
+    margin-bottom: 10px;
+    background-color: #080101;
+    border-radius: 200px;
+    
+}
+
+#ganador {
+    font-size: 24px;
+    font-weight: bold;
+    color: #d8d6d6;
+}
+
+#empezarBtn, #pedirCartaBtn, #finalizarBtn {
+    border-radius: 5px;
+}
+
+#empezarBtn {
+    background-color: #0b0404;
+}
+
+#pedirCartaBtn {
+    background-color: #080101;
+}
+
+#finalizarBtn {
+    background-color: #cac4c5;
+}
+h6 {
+    color: #99011e;
+    text-align: center;
+}
